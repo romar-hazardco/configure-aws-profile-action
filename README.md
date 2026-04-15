@@ -1,6 +1,6 @@
 # Configure AWS Credential Profiles for GitHub Actions
 
-This action uses the official `aws-actions/configure-aws-credentials@v4` action. This action only supports assuming roles via OIDC.
+This action uses the official `aws-actions/configure-aws-credentials@v6` action. This action only supports assuming roles via OIDC.
 
 The official action is not sufficient for multiple account usage as it can only set one set of AWS environment variables at a time.
 
